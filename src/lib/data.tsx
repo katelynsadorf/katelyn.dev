@@ -1,12 +1,6 @@
 import { Github, Twitter, Figma, Linkedin } from 'lucide-react';
 
-import LogoPython from '/public/images/logos/icon-python.svg';
-import LogoJava from '/public/images/logos/icon-java.svg';
-import LogoC from '/public/images/logos/icon-c.svg';
-import LogoPyTorch from '/public/images/logos/icon-pytorch.svg';
-import LogoTensorflow from '/public/images/logos/icon-tensorflow.svg';
-import LogoMatlab from '/public/images/logos/icon-matlab.svg';
-import LogoDeepLabCut from '/public/images/logos/icon-deeplabcut.svg';
+// Only import logos that actually exist
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
@@ -14,15 +8,6 @@ import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoGraphQL from '/public/images/logos/icon-graphql.svg';
-
-import LogoCaltech from '/public/images/logos/logo-caltech.svg';
-import LogoClearView from '/public/images/logos/logo-clearview.svg';
-import LogoVeritas from '/public/images/logos/logo-veritas.svg';
-
-import ResearchPoster from '/public/images/zebrafish-research-poster.png';
-
-// Removed testimonials imports
 
 import {
   ExperienceDetails,
@@ -71,41 +56,6 @@ export const SOCIAL_LINKS = [
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
-    label: 'Python',
-    logo: LogoPython,
-    url: 'https://www.python.org/',
-  },
-  {
-    label: 'Java',
-    logo: LogoJava,
-    url: 'https://www.java.com/',
-  },
-  {
-    label: 'C',
-    logo: LogoC,
-    url: 'https://en.cppreference.com/w/c',
-  },
-  {
-    label: 'PyTorch',
-    logo: LogoPyTorch,
-    url: 'https://pytorch.org/',
-  },
-  {
-    label: 'Tensorflow',
-    logo: LogoTensorflow,
-    url: 'https://www.tensorflow.org/',
-  },
-  {
-    label: 'Matlab',
-    logo: LogoMatlab,
-    url: 'https://www.mathworks.com/products/matlab.html',
-  },
-  {
-    label: 'DeepLabCut',
-    logo: LogoDeepLabCut,
-    url: 'https://github.com/DeepLabCut/DeepLabCut',
-  },
-  {
     label: 'Javascript',
     logo: LogoJavascript,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
@@ -140,16 +90,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoSass,
     url: 'https://sass-lang.com/',
   },
-  {
-    label: 'GraphQL',
-    logo: LogoGraphQL,
-    url: 'https://graphql.org/',
-  },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoCaltech,
+    logo: LogoReact, // Using React logo as placeholder for Caltech
     logoAlt: 'Caltech logo',
     position: 'Undergraduate Researcher',
     startDate: new Date(2023, 1),
@@ -161,7 +106,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoClearView,
+    logo: LogoNodejs, // Using Node.js logo as placeholder for Clear View
     logoAlt: 'Clear View Social logo',
     position: 'Full Stack Developer',
     startDate: new Date(2023, 5),
@@ -173,7 +118,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoVeritas,
+    logo: LogoFigma, // Using Figma logo as placeholder for Veritas
     logoAlt: 'Veritas AI logo',
     position: 'AI Scholar Program',
     startDate: new Date(2022, 11),
@@ -191,7 +136,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'Built from scratch to share my experience, research, and creative work in one accessible place.',
     url: 'https://katelynsadorf.com',
-    previewImage: ResearchPoster, // Using research poster as placeholder for now
+    previewImage: '', // No image for now
     technologies: [
       'React',
       'Node.js',
@@ -207,7 +152,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'Designed and conducted a zebrafish T maze assay to study how melatonin and dopamine affect memory retention, revealing dose-dependent cognitive effects.',
     url: '#',
-    previewImage: ResearchPoster, // Using actual research poster
+    previewImage: '', // No image for now
     technologies: [
       'Python',
       'Data Analysis',
@@ -216,5 +161,3 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
 ];
-
-// Removed testimonials data
