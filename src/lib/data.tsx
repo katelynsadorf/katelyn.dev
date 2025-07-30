@@ -200,7 +200,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Independent Zebrafish Larvae Research',
     description:
       'Designed and conducted a zebrafish T maze assay to study how melatonin and dopamine affect memory retention, revealing dose-dependent cognitive effects.',
-    url: '#',
+    url: 'https://acrobat.adobe.com/id/urn:aaid:sc:US:00dc86eb-28a7-4983-afca-29185c966505',
     previewImage: '', // No image for now
     technologies: [
       'Python',
