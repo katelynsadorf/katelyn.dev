@@ -49,9 +49,9 @@ export const metadata: Metadata = {
     images: '/images/katelyn-headshot.jpg',
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    icon: '/favicon.ico?v=3',
+    shortcut: '/favicon-16x16.png?v=3',
+    apple: '/apple-touch-icon.png?v=3',
   },
 };
 
@@ -82,6 +82,7 @@ export default function RootLayout({
         </head>
       ) : null}
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
+        <link rel="icon" href="/favicon.ico?v=3" />
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
