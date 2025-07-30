@@ -64,7 +64,7 @@ export const SOCIAL_LINKS = [
   },
   {
     icon: Linkedin,
-    url: 'https://linkedin.com/in/katelynsadorf',
+    url: 'https://linkedin.com/in/katelyn-sadorf-1b77a0194',
   },
 ];
 
