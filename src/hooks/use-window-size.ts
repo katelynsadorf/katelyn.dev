@@ -12,19 +12,22 @@ export default function useWindowSize() {
   });
 
   useLayoutEffect(() => {
-    const handleResize = () => {
-      setSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
+    // Only run on client side
+    if (typeof window !== 'undefined') {
+      const handleResize = () => {
+        setSize({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
+      };
 
-    handleResize();
-    window.addEventListener('resize', handleResize);
+      handleResize();
+      window.addEventListener('resize', handleResize);
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
   }, []);
 
   return size;
