@@ -25,7 +25,7 @@ import LogoVeritas from '/public/images/logos/logo-veritas.svg';
 
 // Project images
 import ResearchPoster from '/public/images/zebrafish-research-poster.png';
-import WebsiteImage from '/public/images/katelynsadorf.com.png';
+import WebsiteImage from '/public/images/katelynsadorf-website.png';
 
 import {
   ExperienceDetails,
