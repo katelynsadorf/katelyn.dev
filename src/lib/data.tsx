@@ -157,7 +157,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoClearView,
     logoAlt: 'Clear View Social logo',
-    position: 'Full Stack Developer',
+    position: 'Software Engineer',
     startDate: new Date(2023, 5),
     endDate: new Date(2023, 10),
     summary: [
