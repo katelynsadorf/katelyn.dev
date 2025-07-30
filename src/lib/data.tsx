@@ -23,6 +23,9 @@ import LogoCaltech from '/public/images/logos/logo-caltech.svg';
 import LogoClearView from '/public/images/logos/logo-clearview.svg';
 import LogoVeritas from '/public/images/logos/logo-veritas.svg';
 
+// Project images
+import ResearchPoster from '/public/images/zebrafish-research-poster.png';
+
 import {
   ExperienceDetails,
   ProjectDetails,
@@ -201,7 +204,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'Designed and conducted a zebrafish T maze assay to study how melatonin and dopamine affect memory retention, revealing dose-dependent cognitive effects.',
     url: 'https://acrobat.adobe.com/id/urn:aaid:sc:US:00dc86eb-28a7-4983-afca-29185c966505',
-    previewImage: '', // No image for now
+    previewImage: ResearchPoster,
     technologies: [
       'Python',
       'Data Analysis',
