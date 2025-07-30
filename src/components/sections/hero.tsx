@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
-// import KatelynHeadshot from '/public/images/katelyn-headshot.jpg';
+import KatelynHeadshot from '/public/images/katelyn-headshot.jpg';
 import SocialIcons from '@/components/data-display/social-icons';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
@@ -10,8 +10,8 @@ const HeroSection = () => {
   return (
     <Container id="hero">
       <div className="flex flex-col gap-12 md:flex-row">
-        {/* Image - temporarily removed */}
-        {/* <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
+        {/* Image */}
+        <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
           <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
             <Image
               src={KatelynHeadshot}
@@ -21,7 +21,7 @@ const HeroSection = () => {
             ></Image>
             <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>
           </div>
-        </div> */}
+        </div>
 
         {/* Content */}
         <div className="flex max-w-3xl flex-grow flex-col justify-center gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">

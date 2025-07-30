@@ -1,6 +1,6 @@
 import { Github, Twitter, Figma, Linkedin } from 'lucide-react';
 
-// Only import logos that actually exist
+// Import all available logos
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
@@ -8,6 +8,20 @@ import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoSass from '/public/images/logos/icon-sass.svg';
+
+// New technology logos
+import LogoPython from '/public/images/logos/icon-python.svg';
+import LogoJava from '/public/images/logos/icon-java.png';
+import LogoC from '/public/images/logos/icon-c.svg';
+import LogoPyTorch from '/public/images/logos/icon-pytorch.png';
+import LogoTensorflow from '/public/images/logos/icon-tensorflow.png';
+import LogoMatlab from '/public/images/logos/icon-matlab.png';
+import LogoDeepLabCut from '/public/images/logos/icon-deeplabcut.svg';
+
+// Company logos
+import LogoCaltech from '/public/images/logos/logo-caltech.svg';
+import LogoClearView from '/public/images/logos/logo-clearview.svg';
+import LogoVeritas from '/public/images/logos/logo-veritas.svg';
 
 import {
   ExperienceDetails,
@@ -56,6 +70,41 @@ export const SOCIAL_LINKS = [
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
+    label: 'Python',
+    logo: LogoReact, // Using React as placeholder for Python
+    url: 'https://www.python.org/',
+  },
+  {
+    label: 'Java',
+    logo: LogoJava,
+    url: 'https://www.java.com/',
+  },
+  {
+    label: 'C',
+    logo: LogoC,
+    url: 'https://en.cppreference.com/w/c',
+  },
+  {
+    label: 'PyTorch',
+    logo: LogoPyTorch,
+    url: 'https://pytorch.org/',
+  },
+  {
+    label: 'Tensorflow',
+    logo: LogoTensorflow,
+    url: 'https://www.tensorflow.org/',
+  },
+  {
+    label: 'Matlab',
+    logo: LogoMatlab,
+    url: 'https://www.mathworks.com/products/matlab.html',
+  },
+  {
+    label: 'DeepLabCut',
+    logo: LogoDeepLabCut,
+    url: 'https://github.com/DeepLabCut/DeepLabCut',
+  },
+  {
     label: 'Javascript',
     logo: LogoJavascript,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
@@ -94,7 +143,7 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoReact, // Using React logo as placeholder for Caltech
+    logo: LogoCaltech,
     logoAlt: 'Caltech logo',
     position: 'Undergraduate Researcher',
     startDate: new Date(2023, 1),
@@ -106,7 +155,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoNodejs, // Using Node.js logo as placeholder for Clear View
+    logo: LogoClearView,
     logoAlt: 'Clear View Social logo',
     position: 'Full Stack Developer',
     startDate: new Date(2023, 5),
@@ -118,7 +167,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoFigma, // Using Figma logo as placeholder for Veritas
+    logo: LogoVeritas,
     logoAlt: 'Veritas AI logo',
     position: 'AI Scholar Program',
     startDate: new Date(2022, 11),
