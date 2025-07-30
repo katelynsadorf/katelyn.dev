@@ -25,6 +25,7 @@ import LogoVeritas from '/public/images/logos/logo-veritas.svg';
 
 // Project images
 import ResearchPoster from '/public/images/zebrafish-research-poster.png';
+import WebsiteImage from '/public/images/katelynsadorf.com.png';
 
 import {
   ExperienceDetails,
@@ -188,7 +189,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'Built from scratch to share my experience, research, and creative work in one accessible place.',
     url: 'https://katelynsadorf.com',
-    previewImage: '', // No image for now
+    previewImage: WebsiteImage,
     technologies: [
       'React',
       'Node.js',
