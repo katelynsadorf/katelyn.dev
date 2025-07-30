@@ -9,9 +9,9 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Katelyn Sadorf | Full Stack Developer';
+const title = 'Katelyn Sadorf | Software Engineer';
 const description =
-  'A passionate full stack developer specializing in modern web technologies and creating exceptional digital experiences.';
+  'A passionate software engineer specializing in modern web technologies and creating exceptional digital experiences.';
 const url = 'https://katelynsadorf.com';
 
 export const metadata: Metadata = {
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   title,
   description,
   keywords: [
+    'Software Engineer',
     'Frontend Developer',
-    'Full Stack Developer',
     'React Developer',
     'Next.js Developer',
   ],
