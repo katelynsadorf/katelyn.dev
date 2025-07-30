@@ -187,7 +187,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'This website!',
     description:
-      'Built from scratch to share my experience, research, and creative work in one accessible place.',
+      'Built to share my experience, research, and creative work in one accessible place.',
     url: 'https://katelynsadorf.com',
     previewImage: WebsiteImage,
     technologies: [
